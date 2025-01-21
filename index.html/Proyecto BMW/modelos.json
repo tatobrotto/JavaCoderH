@@ -1,0 +1,96 @@
+{
+    "autos": [
+      {
+        "id": 1,
+        "nombre": "BMW E30 M3",
+        "division": "M",
+        "anio": 1986,
+        "precio": 30000,
+        "img": "img/E30M3.jpg",
+        "potencia": 215,
+        "torque": 246,
+        "velMax": 235,
+        "transmision": "Manual 5 velocidades",
+        "motor": "4 cilindros en línea"
+      },
+      {
+        "id": 2,
+        "nombre": "BMW E9 3.0 CSL",
+        "division": "CSL",
+        "anio": 1972,
+        "precio": 150000,
+        "img": "img/E9 3.0CSL.jpg",
+        "potencia": 206,
+        "torque": 272,
+        "velMax": 220,
+        "transmision": "Manual 4 velocidades",
+        "motor": "6 cilindros en línea"
+      },
+      {
+        "id": 3,
+        "nombre": "BMW Alpina B10",
+        "division": "Alpina",
+        "anio": 1989,
+        "precio": 60000,
+        "img": "img/Alpina B10.jpg",
+        "potencia": 360,
+        "torque": 520,
+        "velMax": 277,
+        "transmision": "Manual 5 velocidades",
+        "motor": "6 cilindros en línea turbo"
+      },
+      {
+        "id": 4,
+        "nombre": "BMW 1M Coupé",
+        "division": "M",
+        "anio": 2011,
+        "precio": 45000,
+        "img": "img/1M.jpg",
+        "potencia": 340,
+        "torque": 450,
+        "velMax": 250,
+        "transmision": "Manual 6 velocidades",
+        "motor": "6 cilindros en línea bi-turbo"
+      },
+      {
+        "id": 5,
+        "nombre": "BMW E46 M3 CSL",
+        "division": "CSL",
+        "anio": 2003,
+        "precio": 65000,
+        "img": "img/E46 M3CSL.jpg",
+        "potencia": 360,
+        "torque": 370,
+        "velMax": 280,
+        "transmision": "SMG (Secuencial 6 velocidades)",
+        "motor": "6 cilindros en línea"
+      },
+      {
+        "id": 6,
+        "nombre": "BMW M2 Competition",
+        "division": "M",
+        "anio": 2019,
+        "precio": 60000,
+        "img": "img/M2Comp.jpg",
+        "potencia": 410,
+        "torque": 550,
+        "velMax": 280,
+        "transmision": "Manual / DCT 7 velocidades",
+        "motor": "6 cilindros en línea bi-turbo"
+      },
+      {
+        "id": 7,
+        "nombre": "BMW Alpina B7",
+        "division": "Alpina",
+        "anio": 2016,
+        "precio": 120000,
+        "img": "img/Alpina B7.jpg",
+        "potencia": 600,
+        "torque": 800,
+        "velMax": 310,
+        "transmision": "Automática 8 velocidades",
+        "motor": "V8 bi-turbo"
+      }
+    ]
+  }
+  

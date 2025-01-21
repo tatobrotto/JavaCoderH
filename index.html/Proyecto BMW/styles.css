@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f700;
+  color: #333;
+}
+
+#appModelos, #appCheckout {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #ffffff99;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+}
+
+.card, .fichaCard {
+  border: 1px solid #eeeeee00;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.card img, .fichaCard img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+  background: #003366;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+form label {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+form input {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* Fondo solo para la página de modelos */
+body.modelos-page {
+  background: url("img/fondo.jpg") no-repeat center center fixed;
+  background-size: cover;       
+}
