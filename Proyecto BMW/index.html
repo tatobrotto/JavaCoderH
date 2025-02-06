@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - BMW</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="appIndex"></div>
+
+  <script>
+    const appIndex = document.getElementById("appIndex");
+
+    const titulo = document.createElement("h1");
+    titulo.textContent = "Museo Virtual BMW";
+
+    const desc = document.createElement("p");
+    desc.textContent = "Bienvenido/a. Explora los modelos y selecciónalos para ver su ficha técnica y finalizar la compra.";
+
+    const btnIr = document.createElement("button");
+    btnIr.textContent = "Ver Modelos";
+    btnIr.addEventListener("click", () => {
+      // Redirige a la página de modelos
+      window.location.href = "modelos.html";
+    });
+
+    appIndex.append(titulo, desc, btnIr);
+  </script>
+</body>
+</html>

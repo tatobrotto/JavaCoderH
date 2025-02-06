@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f700;
+  color: #333;
+}
+
+#appIndex, #appModelos, #appCheckout {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #ffffff9a;
+}
+
+/* Fondo solo en la pagina de modelos */
+body.modelos-page {
+  background: url("img/fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Grid de autos */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* semitransparente */
+}
+
+.card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+  background: #003366;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+/* Form en checkout */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+form input {
+  margin-bottom: 0.5rem;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
